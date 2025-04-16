@@ -1,7 +1,7 @@
 # CPUs_Analysis  
 **Probability and Statistics**
 
-In this analysis, we investigate the relationships between CPU specifications and their performance characteristics, with a focus on **power** consumption. The analysis was conducted using Python, primarily leveraging **Pandas** for data handling and **statistical methods** including ANOVA and Linear Regression.
+In this analysis, we investigate the relationships between CPU specifications and their cache size characteristics, with a focus on **power** consumption. The analysis was conducted using Python, primarily leveraging **Pandas** for data handling and **statistical methods** including ANOVA and Linear Regression.
 
 ### Tools and Techniques Used:
 - **Pandas**: For data cleaning, preprocessing, and exploratory data analysis (EDA).
