@@ -6,7 +6,7 @@ In this analysis, we investigate the relationships between CPU specifications an
 ### Tools and Techniques Used:
 - **Pandas**: For data cleaning, preprocessing, and exploratory data analysis (EDA).
 - **ANOVA (Analysis of Variance)**: Used to analyze differences in CPU power consumption across different categorical groups, such as CPU families or architecture types.
-- **Linear Regression (LR)**: Applied to model and predict CPU performance based on numerical features like processor base frequency, number of cores, and cache size.
+- **Linear Regression (LR)**: Applied to model and predict **CPU cache size** based on numerical features such as the number of threads and recommended customer price.
 
 ### Workflow Overview:
 1. **Data Cleaning**  
@@ -23,8 +23,8 @@ In this analysis, we investigate the relationships between CPU specifications an
    - **ANOVA** was employed to test whether CPU power significantly differs between different CPU categories (e.g., by brand or technology generation)
 
 4. **Modeling with Linear Regression**  
-   - Built a regression model to estimate power consumption based on numerical predictors  
-   - Evaluated model performance using R-squared and residual analysis
+   - Built a multiple linear regression model to estimate **CPU cache size** based on numerical predictors: number of threads and recommended customer price  
+   - Evaluated model performance using **R-squared** and **p-values** to assess goodness of fit and statistical significance
 
 5. **Insights**  
    - Identified key factors that influence CPU power  
